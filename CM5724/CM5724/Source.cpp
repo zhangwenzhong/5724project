@@ -62,6 +62,7 @@ int main()
 			}
 			ofile << "(" << vector[dim] << ")" << " = 0" << endl
 				<< "with a margin at least " << guess_margin / 2;
+			ofile.close();
 			for (int i = 0; i < size; i++) {
 				delete[] data[i];
 			}
@@ -75,6 +76,7 @@ int main()
 		if (guess_margin < 0.000001) {
 			ofile.clear();
 			ofile << "Seperation plane is not found. The dataset is not linearly seperable.";
+			ofile.close();
 			for (int i = 0; i < size; i++) {
 				delete[] data[i];
 			}
