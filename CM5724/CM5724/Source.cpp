@@ -66,6 +66,7 @@ int main()
 				delete[] data[i];
 			}
 			delete[] data;
+			delete[] vector;
 			return 0;
 		}
 		else {
@@ -78,6 +79,7 @@ int main()
 				delete[] data[i];
 			}
 			delete[] data;
+			delete[] vector;
 			return 0;
 		}
 	}
