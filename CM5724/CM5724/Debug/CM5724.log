@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\lyp\documents\visual studio 2017\projects\cm5724\cm5724\source.cpp(97): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  CM5724.vcxproj -> C:\Users\LYP\Documents\Visual Studio 2017\Projects\CM5724\Debug\CM5724.exe
+  CM5724.vcxproj -> C:\Users\LYP\Documents\Visual Studio 2017\Projects\CM5724\Debug\CM5724.pdb (Partial PDB)
